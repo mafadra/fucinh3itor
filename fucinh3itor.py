@@ -6,7 +6,7 @@ from fucinh3itorclasses.genericusermessages import *
 import argparse
 import sys
 
-arguments_class = arguments(argparse.ArgumentParser(description='--- Fucinh3itor is a tool that list subdomains in a application | visit https://github.com/mafadra/funcinh3itor to know more | version: v1.0.0 ---'))
+arguments_class = arguments(argparse.ArgumentParser(description='--- Fucinh3itor is a tool that list subdomains in a application | visit https://github.com/mafhora/funcinh3itor to know more | version: v1.0.0 ---'))
 domain_to_verify = arguments_class.args.domain
 status_code_filter = arguments_class.args.status_code
 output_file_arg = arguments_class.args.output
